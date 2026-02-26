@@ -94,14 +94,25 @@ hr {
     }
 }
 
-/* Container About */
+/* ABOUT PAGE */
+
 .about-container {
     width: 80%;
     margin: auto;
     margin-top: 30px;
 }
 
-/* Card About */
+/* Intro */
+.about-intro {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Card */
 .about-box {
     background-color: white;
     padding: 25px;
@@ -110,12 +121,12 @@ hr {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Judul Box */
-.about-box h2 {
-    margin-top: 0;
-}
-
-/* Tengah */
-.center-text {
+/* Highlight solusi */
+.about-highlight {
+    background-color: #2563eb;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
     text-align: center;
 }
