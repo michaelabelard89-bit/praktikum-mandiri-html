@@ -159,10 +159,8 @@ hr {
 .about-container {
 
     width: 80%;
-
     margin: auto;
-
-    margin-top: 30px;
+    margin-top: 40px;
 
 }
 
@@ -171,36 +169,38 @@ hr {
 
 .about-intro {
 
-    background: linear-gradient(to right,#1e3a8a,#2563eb);
+    background: linear-gradient(135deg,#2563eb,#60a5fa);
 
     color: white;
 
-    padding: 35px;
+    padding: 40px;
 
-    border-radius: 15px;
+    border-radius: 18px;
 
     text-align: center;
 
-    box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
 
     margin-bottom: 30px;
 
 }
 
 
-/* BOX */
+/* BOX UTAMA */
 
 .about-box {
 
-    background-color: white;
+    background: linear-gradient(to right,#ffffff,#f1f5ff);
 
     padding: 25px;
 
     margin-bottom: 25px;
 
-    border-radius: 15px;
+    border-radius: 18px;
 
     box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+
+    border-left: 8px solid #2563eb;
 
     transition: 0.3s;
 
@@ -209,31 +209,30 @@ hr {
 
 .about-box:hover {
 
-    transform: scale(1.02);
+    transform: translateX(5px);
 
 }
 
 
-/* HIGHLIGHT */
+/* HIGHLIGHT SOLUSI */
 
 .about-highlight {
 
-    background: linear-gradient(to right,#2563eb,#60a5fa);
+    background: linear-gradient(135deg,#2563eb,#3b82f6,#60a5fa);
 
     color: white;
 
-    padding: 25px;
+    padding: 30px;
 
-    border-radius: 15px;
+    border-radius: 18px;
 
     margin-bottom: 25px;
 
     text-align: center;
 
-    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
 
 }
-
 
 /* CONTACT */
 
