@@ -258,10 +258,18 @@ hr {
 .portofolio-box{
      height: 400px;
   width: 1000px;
-  align-self: center;
+   display: flex;
+  justify-content: center;
   background-color: #e5e5e5;
+  align-items: center;
     border-radius: 25px;
+    opacity: 0.85;
+    margin-bottom: 15px;
+    transition: 0.3s;
     
+}
+.portofolio-box:hover{
+    transform: scale(1.2)
 }
 
 
