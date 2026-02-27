@@ -122,6 +122,7 @@ hr {
     gap: 25px;
 
     padding: 20px;
+    
 
 }
 
@@ -253,6 +254,15 @@ hr {
     box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
 
 }
+/* */
+.portofolio-box{
+     height: 400px;
+  width: 1000px;
+  align-self: center;
+  background-color: #e5e5e5;
+    border-radius: 25px;
+    
+}
 
 
 /* FOOTER */
@@ -270,3 +280,4 @@ footer {
     color: white;
 
 }
+
